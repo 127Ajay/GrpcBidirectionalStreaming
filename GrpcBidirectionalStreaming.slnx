@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GrpcBidirectionalStreaming.Client/GrpcBidirectionalStreaming.Client.csproj" />
+  <Project Path="GrpcBidirectionalStreaming.Server/GrpcBidirectionalStreaming.Server.csproj" />
+</Solution>

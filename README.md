@@ -1,6 +1,6 @@
-# gRPC Bidirectional Streaming with .NET 9
+# gRPC Bidirectional Streaming with .NET 10
 
-A simple, practical **gRPC Bidirectional Streaming** application built with **C# and .NET 9**.
+A simple, practical **gRPC Bidirectional Streaming** application built with **C# and .NET 10**.
 
 This project is designed to demonstrate how a client and server can maintain a single gRPC connection and **continuously send and receive messages independently**.
 
@@ -181,7 +181,7 @@ This project demonstrates:
 | Technology | Version / Usage |
 |---|---|
 | C# | C# |
-| .NET | .NET 9 |
+| .NET | .NET 10 |
 | ASP.NET Core | gRPC Server |
 | gRPC | Bidirectional Streaming |
 | Protocol Buffers | Service Contract |
@@ -261,7 +261,7 @@ The important architectural concept is that the request and response streams are
 
 Install the following:
 
-- .NET 9 SDK
+- .NET 10 SDK
 - Visual Studio / JetBrains Rider / VS Code
 - Git
 
@@ -277,10 +277,10 @@ Verify installed SDKs:
 dotnet --list-sdks
 ```
 
-You should see a .NET 9 SDK:
+You should see a .NET 10 SDK:
 
 ```text
-9.0.xxx
+10.0.xxx
 ```
 
 ---
@@ -1963,4 +1963,4 @@ cd GrpcBidirectionalStreaming.Client
 dotnet run
 ```
 
-The result is a simple but complete **.NET 9 gRPC Bidirectional Streaming application** that demonstrates continuous, concurrent communication between a client and server over a single gRPC connection.
+The result is a simple but complete **.NET 10 gRPC Bidirectional Streaming application** that demonstrates continuous, concurrent communication between a client and server over a single gRPC connection.
